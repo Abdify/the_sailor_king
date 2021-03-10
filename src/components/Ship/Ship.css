@@ -1,0 +1,30 @@
+.ship{
+    width: 25%;
+    height: 400px;
+    background-color: darkcyan;
+    color: wheat;
+    border-radius: 10px;
+    margin: 1.5rem;
+    padding: 0.8rem 0;
+    overflow: hidden;
+}
+.ship > img{
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+}
+.exploreBtn{
+    height: 50px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .ship {
+    width: 90%;
+  }
+}

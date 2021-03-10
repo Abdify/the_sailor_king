@@ -1,0 +1,24 @@
+.homeHeader{
+    height: 300px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../../images/shipBackground.jpg');
+    background-position: top;
+    background-size: 100% 50%;
+    background-attachment: fixed;
+}
+.titleText{
+    color: wheat;
+    line-height: 300px;
+    margin: 0;
+}
+.siteName{
+    color: lightcyan;
+    font-style: italic;
+}
+main{
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
