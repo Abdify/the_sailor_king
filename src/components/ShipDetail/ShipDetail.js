@@ -66,13 +66,13 @@ const ShipDetail = () => {
                     ipsa, dolore quis. Eius, veniam. <br />
                 </div>
                 <div className="socialIcons">
-                    <a href={ship.link} target="_blank">
+                    <a href={ship.link}>
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
-                    <a href={ship.link} target="_blank">
+                    <a href={ship.link}>
                         <FontAwesomeIcon icon={faTwitter} />
                     </a>
-                    <a href={ship.link} target="_blank">
+                    <a href={ship.link}>
                         <FontAwesomeIcon icon={faYoutube} />
                     </a>
                 </div>
